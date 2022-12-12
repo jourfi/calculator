@@ -1,0 +1,62 @@
+.calculator {
+  margin-top: 5%;
+  box-shadow: 4px 15px 20px 1px gray;
+  border-radius: 10px;
+  min-width: 200px;
+  width: 450px;
+  height: 420px;
+  padding: 10px 0px 10px 0px;
+  background: white; 
+}
+
+.window {
+  background: rgb(36 74 3 / 64%);
+  color: rgb(0, 0, 0);
+  min-width: 180px;
+  width: 88%;
+  height: 90px;
+  margin: 0px 0px 10px 0px;
+  padding: 10px;
+  font-size: 30px;
+  line-height: 90px;
+  overflow: auto;
+  font-family: 'Martian Mono', monospace;
+  overflow: hidden;
+}
+
+
+.keypad {
+  border-radius: 0px 0px 3px 3px;
+  width: 95%;
+  height: 300px;
+  
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  border-radius: 3px;
+}
+ul li {
+background: white; 
+font-family: 'Martian Mono', monospace;
+  background: -webkit-linear-gradient(right, rgb(216, 218, 219), white); 
+  background: -o-linear-gradient(left, rgb(216, 218, 219), white);
+  background: -moz-linear-gradient(left, rgb(216, 218, 219), white); 
+  background: linear-gradient(to left, rgb(216, 218, 219) , white); 
+  cursor: pointer;
+  list-style-type: none;
+  display: inline-block; 
+  width: 60px;
+  height: 45px;
+  font-size: 40px;
+  padding: 1px;
+  margin: 10px 1px 0px 1px;
+  box-shadow: 0px 3px 5px black;
+  border-radius: 108px;
+}
+
+ul li:active {
+  box-shadow: 0px 0px 0px black;
+  transform: translateY(3px);
+}
